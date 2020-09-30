@@ -11,78 +11,81 @@
 <body>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <header>
-        <nav class="navbar navbar-default" id="navigation-bar">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#menu">Food, LLC</a>
-                </div>
+    <div class="container-fluid">
+        <div class="row">
+        <header>
+            <nav class="navbar navbar-default" id="navigation-bar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#menu">Food, LLC</a>
+                    </div>
 
-                <div class="collapse navbar-collapse" id="menu">
-                    <ul class="nav navbar-nav visible-xs">
-                        <li class="menu-item"><a href="#Chicken">Chicken</a></li>
-                        <li class="menu-item"><a href="#Beef">Beef</a></li>
-                        <li class="menu-item"><a href="#Sushi">Sushi</a></li>
-                    </ul>
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="nav navbar-nav visible-xs">
+                            <li class="menu-item"><a href="#Chicken">Chicken</a></li>
+                            <li class="menu-item"><a href="#Beef">Beef</a></li>
+                            <li class="menu-item"><a href="#Sushi">Sushi</a></li>
+                        </ul>
+                    </div>
                 </div>
+            </nav>
+        </header>
+
+        <h1 class="text-center text-capitalize">our menu</h1>
+
+        <div class="container-fluid">
+            <div id="Chicken" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 item-content">
+                <article class="item-description ">
+                    <h3 class="text-center text-capitalize">Chicken</h3>
+                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque deserunt fugit mollitia
+                        quisquam. Consequatur debitis esse ipsum perspiciatis placeat repellendus saepe voluptates! Beatae
+                        consequatur dolore esse est magni minus.
+                    </div>
+                    <div>A autem cumque dolor, ducimus ea minus nulla quas quod sunt suscipit vel, veritatis voluptas
+                        voluptatem. Adipisci aliquam animi deserunt eos esse, hic itaque iusto officiis quos, saepe, tenetur
+                        ullam?
+                    </div>
+                    <a href="#navigation-bar" class="back-to-top visible-xs">back to top</a>
+                </article>
             </div>
-        </nav>
-    </header>
 
-    <h1 class="text-center text-capitalize">our menu</h1>
+            <div id="Beef" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 item-content">
+                <article class="item-description">
+                    <h3 class="text-center text-capitalize">Beef</h3>
+                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque deserunt fugit mollitia
+                        quisquam. Consequatur debitis esse ipsum perspiciatis placeat repellendus saepe voluptates! Beatae
+                        consequatur dolore esse est magni minus.
+                    </div>
+                    <div>A autem cumque dolor, ducimus ea minus nulla quas quod sunt suscipit vel, veritatis voluptas
+                        voluptatem. Adipisci aliquam animi deserunt eos esse, hic itaque iusto officiis quos, saepe, tenetur
+                        ullam?
+                    </div>
+                    <a href="#navigation-bar" class="back-to-top visible-xs">back to top</a>
+                </article>
+            </div>
 
-    <section class="row">
-        <div id="Chicken" class="col-lg-4 col-md-6 col-xs-12 item-content">
-            <article class="item-description ">
-                <h3 class="text-center text-capitalize">Chicken</h3>
-                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque deserunt fugit mollitia
-                    quisquam. Consequatur debitis esse ipsum perspiciatis placeat repellendus saepe voluptates! Beatae
-                    consequatur dolore esse est magni minus.
-                </div>
-                <div>A autem cumque dolor, ducimus ea minus nulla quas quod sunt suscipit vel, veritatis voluptas
-                    voluptatem. Adipisci aliquam animi deserunt eos esse, hic itaque iusto officiis quos, saepe, tenetur
-                    ullam?
-                </div>
-                <a href="#navigation-bar" class="back-to-top visible-xs">back to top</a>
-            </article>
+            <div id="Sushi" class="col-lg-4 col-md-4 col-sm-12 col-xs-12 item-content">
+                <article class="item-description">
+                    <h3 class="text-center text-capitalize">Sushi</h3>
+                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque deserunt fugit mollitia
+                        quisquam. Consequatur debitis esse ipsum perspiciatis placeat repellendus saepe voluptates! Beatae
+                        consequatur dolore esse est magni minus.
+                    </div>
+                    <div>A autem cumque dolor, ducimus ea minus nulla quas quod sunt suscipit vel, veritatis voluptas
+                        voluptatem. Adipisci aliquam animi deserunt eos esse, hic itaque iusto officiis quos, saepe, tenetur
+                        ullam?
+                    </div>
+                    <a href="#navigation-bar" class="back-to-top visible-xs">back to top</a>
+                </article>
+            </div>
         </div>
-
-        <div id="Beef" class="col-lg-4 col-md-6 col-xs-12 item-content">
-            <article class="item-description">
-                <h3 class="text-center text-capitalize">Beef</h3>
-                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque deserunt fugit mollitia
-                    quisquam. Consequatur debitis esse ipsum perspiciatis placeat repellendus saepe voluptates! Beatae
-                    consequatur dolore esse est magni minus.
-                </div>
-                <div>A autem cumque dolor, ducimus ea minus nulla quas quod sunt suscipit vel, veritatis voluptas
-                    voluptatem. Adipisci aliquam animi deserunt eos esse, hic itaque iusto officiis quos, saepe, tenetur
-                    ullam?
-                </div>
-                <a href="#navigation-bar" class="back-to-top visible-xs">back to top</a>
-            </article>
-        </div>
-
-        <div id="Sushi" class="col-lg-4 col-md-12 col-xs-12 item-content">
-            <article class="item-description">
-                <h3 class="text-center text-capitalize">Sushi</h3>
-                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque deserunt fugit mollitia
-                    quisquam. Consequatur debitis esse ipsum perspiciatis placeat repellendus saepe voluptates! Beatae
-                    consequatur dolore esse est magni minus.
-                </div>
-                <div>A autem cumque dolor, ducimus ea minus nulla quas quod sunt suscipit vel, veritatis voluptas
-                    voluptatem. Adipisci aliquam animi deserunt eos esse, hic itaque iusto officiis quos, saepe, tenetur
-                    ullam?
-                </div>
-                <a href="#navigation-bar" class="back-to-top visible-xs">back to top</a>
-            </article>
-        </div>
-    </section>
-
+    </div>
+    </div>
 </body>
 </html>

@@ -28,10 +28,10 @@ header>.navbar-default{
 /*content start*/
 
 .item-description{
-    margin: 20px;
-    padding: 10px;
     text-align: justify;
     background-color: #f8f8f8;
+    padding: 15px;
+    margin: 20px 0;
 }
 .item-description>h3{
     margin: 0;
