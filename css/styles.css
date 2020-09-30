@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+header>.navbar-default{
+    border-radius: 0;
+    border: 2px solid #A9A9A9;
+}
+#menu{
+    padding: 0;
+}
+.navbar-header>a{
+    font-size: 1.7em;
+    font-weight: bold;
+    padding-left: 20px;
+}
+#menu>.navbar-nav{
+    margin: 0;
+    padding: 0;
+}
+.menu-item{
+    text-align: center;
+    padding: 0 5px;
+    border-bottom: 1px solid #e7e7e7;
+    font-size: 1.2em;
+    background-color: #FFFFFF;
+}
+
+/*content start*/
+
+.item-description{
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+    background-color: #f8f8f8;
+}
+.item-description>h3{
+    margin: 0;
+}
+
+/*content end*/
